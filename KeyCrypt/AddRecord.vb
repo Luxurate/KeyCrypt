@@ -145,4 +145,8 @@ Public Class AddRecord
             SendKeys.Send("{TAB}")
         End If
     End Sub
+
+    Private Sub AddRecord_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

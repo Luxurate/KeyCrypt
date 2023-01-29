@@ -49,7 +49,7 @@ Partial Class RecoveryKey
         Me.BtnSavebkpstr.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.BtnSavebkpstr.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnSavebkpstr.ForeColor = System.Drawing.Color.White
-        Me.BtnSavebkpstr.Location = New System.Drawing.Point(160, 281)
+        Me.BtnSavebkpstr.Location = New System.Drawing.Point(160, 300)
         Me.BtnSavebkpstr.Name = "BtnSavebkpstr"
         Me.BtnSavebkpstr.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Me.BtnSavebkpstr.Size = New System.Drawing.Size(105, 40)
@@ -74,7 +74,7 @@ Partial Class RecoveryKey
         Me.Textboxbkpstr.PlaceholderText = ""
         Me.Textboxbkpstr.SelectedText = ""
         Me.Textboxbkpstr.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Me.Textboxbkpstr.Size = New System.Drawing.Size(403, 23)
+        Me.Textboxbkpstr.Size = New System.Drawing.Size(403, 33)
         Me.Textboxbkpstr.TabIndex = 36
         Me.Textboxbkpstr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -99,7 +99,7 @@ Partial Class RecoveryKey
         Me.BtnChgbkpstr.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.BtnChgbkpstr.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnChgbkpstr.ForeColor = System.Drawing.Color.White
-        Me.BtnChgbkpstr.Location = New System.Drawing.Point(160, 224)
+        Me.BtnChgbkpstr.Location = New System.Drawing.Point(160, 240)
         Me.BtnChgbkpstr.Name = "BtnChgbkpstr"
         Me.BtnChgbkpstr.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Me.BtnChgbkpstr.Size = New System.Drawing.Size(105, 40)

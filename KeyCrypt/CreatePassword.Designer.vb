@@ -91,7 +91,7 @@ Partial Class CreatePassword
         Me.lb1.AutoSize = True
         Me.lb1.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.lb1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lb1.Location = New System.Drawing.Point(255, 301)
+        Me.lb1.Location = New System.Drawing.Point(246, 301)
         Me.lb1.Name = "lb1"
         Me.lb1.Size = New System.Drawing.Size(113, 21)
         Me.lb1.TabIndex = 23
@@ -105,7 +105,7 @@ Partial Class CreatePassword
         Me.ShowPassword.CheckedState.InnerBorderColor = System.Drawing.Color.White
         Me.ShowPassword.CheckedState.InnerColor = System.Drawing.Color.White
         Me.ShowPassword.CustomizableEdges = CustomizableEdges1
-        Me.ShowPassword.Location = New System.Drawing.Point(217, 301)
+        Me.ShowPassword.Location = New System.Drawing.Point(208, 301)
         Me.ShowPassword.Name = "ShowPassword"
         Me.ShowPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Me.ShowPassword.Size = New System.Drawing.Size(32, 20)
@@ -128,7 +128,7 @@ Partial Class CreatePassword
         Me.SignUp.Location = New System.Drawing.Point(34, 351)
         Me.SignUp.Name = "SignUp"
         Me.SignUp.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Me.SignUp.Size = New System.Drawing.Size(372, 40)
+        Me.SignUp.Size = New System.Drawing.Size(374, 40)
         Me.SignUp.TabIndex = 21
         Me.SignUp.Text = "SIGN UP"
         '

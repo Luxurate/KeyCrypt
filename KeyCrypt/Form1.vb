@@ -15,7 +15,46 @@ Public Class Form1
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        Timer1.Start()
+        con.Open()
+        cmd.Connection = con
+        cmd.CommandText = "Select unameAS,upassAS from login"
+        cmd.CommandType = CommandType.Text
+        Dim sdr As Microsoft.Data.SqlClient.SqlDataReader = cmd.ExecuteReader()
+        sdr.Read()
+        a = sdr("unameAS").ToString()
+        b = sdr("upassAS").ToString()
+        If LoginUsername.Text = "" And LoginPassword.Text = "" Then
+            LoginUsername.BorderColor = Color.Red
+            LoginPassword.BorderColor = Color.Red
+
+        ElseIf LoginPassword.Text = "" Then
+
+            LoginPassword.BorderColor = Color.Red
+
+        ElseIf LoginUsername.Text = "" Then
+            LoginUsername.BorderColor = Color.Red
+
+
+        ElseIf a = LoginUsername.Text And b <> LoginPassword.Text Then
+            LoginUsername.BorderColor = Color.Green
+            LoginPassword.BorderColor = Color.Red
+        ElseIf a <> LoginUsername.Text And b = LoginPassword.Text Then
+            LoginUsername.BorderColor = Color.Red
+            LoginPassword.BorderColor = Color.Green
+
+        ElseIf a = LoginUsername.Text And b = LoginPassword.Text Then
+            LoginUsername.BorderColor = Color.Gray
+            LoginPassword.BorderColor = Color.Gray
+            LoginPassword.Text = ""
+            LoginUsername.Text = ""
+            Dashboard.Show()
+            Me.Hide()
+
+
+
+        End If
+        con.Close()
+
     End Sub
 
     Private Sub checker_CheckedChanged(sender As Object, e As EventArgs) Handles ShowPassword.CheckedChanged
@@ -39,45 +78,5 @@ Public Class Form1
         LoginPassword.Focus()
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        prgbar.Increment(10)
-        If prgbar.Value = 100 Then
-            Timer1.Stop()
 
-
-            con.Open()
-            cmd.Connection = con
-            cmd.CommandText = "Select unameAS,upassAS from login"
-            cmd.CommandType = CommandType.Text
-            Dim sdr As Microsoft.Data.SqlClient.SqlDataReader = cmd.ExecuteReader()
-            sdr.Read()
-            a = sdr("unameAS").ToString()
-            b = sdr("upassAS").ToString()
-            If LoginUsername.Text = "" And LoginPassword.Text = "" Then
-
-                checker.Text = "Please Fill the Fields!!"
-                prgbar.Value = 0
-            ElseIf LoginPassword.Text = "" Then
-                checker.Text = "Please Fill the Password!!"
-                prgbar.Value = 0
-            ElseIf LoginUsername.Text = "" Then
-                checker.Text = "Please Fill the Username!!"
-                prgbar.Value = 0
-            ElseIf a = LoginUsername.Text And b <> LoginPassword.Text Then
-
-                checker.Text = "Please Check the Password!!"
-                prgbar.Value = 0
-            ElseIf a = LoginUsername.Text And b = LoginPassword.Text Then
-
-                LoginPassword.Text = ""
-                LoginUsername.Text = ""
-                checker.Text = ""
-                Dashboard.Show()
-                Me.Hide()
-
-
-            End If
-            con.Close()
-        End If
-    End Sub
 End Class

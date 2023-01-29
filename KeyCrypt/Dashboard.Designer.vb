@@ -83,10 +83,10 @@ Partial Class Dashboard
         Me.Guna2Panel3.Controls.Add(Me.Guna2Button2)
         Me.Guna2Panel3.Controls.Add(Me.Guna2Button1)
         Me.Guna2Panel3.CustomizableEdges = CustomizableEdges15
-        Me.Guna2Panel3.Location = New System.Drawing.Point(-8, 31)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(-31, 31)
         Me.Guna2Panel3.Name = "Guna2Panel3"
         Me.Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Me.Guna2Panel3.Size = New System.Drawing.Size(236, 427)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(221, 429)
         Me.Guna2Panel3.TabIndex = 0
         '
         'Guna2Button7
@@ -103,7 +103,7 @@ Partial Class Dashboard
         Me.Guna2Button7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button7.ForeColor = System.Drawing.Color.Transparent
         Me.Guna2Button7.HoverState.BorderColor = System.Drawing.Color.Cyan
-        Me.Guna2Button7.Location = New System.Drawing.Point(69, 7)
+        Me.Guna2Button7.Location = New System.Drawing.Point(99, 7)
         Me.Guna2Button7.Name = "Guna2Button7"
         Me.Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Me.Guna2Button7.Size = New System.Drawing.Size(94, 88)
@@ -120,20 +120,21 @@ Partial Class Dashboard
         Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button6.ForeColor = System.Drawing.Color.White
         Me.Guna2Button6.Image = CType(resources.GetObject("Guna2Button6.Image"), System.Drawing.Image)
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.Location = New System.Drawing.Point(14, 373)
+        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button6.Location = New System.Drawing.Point(-11, 373)
         Me.Guna2Button6.Name = "Guna2Button6"
         Me.Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Me.Guna2Button6.Size = New System.Drawing.Size(222, 37)
         Me.Guna2Button6.TabIndex = 7
         Me.Guna2Button6.Text = "Credit Cards"
+        Me.Guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(12, 120)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(126, 120)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(67, 15)
         Me.Guna2HtmlLabel1.TabIndex = 6
@@ -150,13 +151,14 @@ Partial Class Dashboard
         Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button5.ForeColor = System.Drawing.Color.White
         Me.Guna2Button5.Image = CType(resources.GetObject("Guna2Button5.Image"), System.Drawing.Image)
-        Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button5.Location = New System.Drawing.Point(12, 327)
+        Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button5.Location = New System.Drawing.Point(-15, 327)
         Me.Guna2Button5.Name = "Guna2Button5"
         Me.Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Me.Guna2Button5.Size = New System.Drawing.Size(224, 40)
         Me.Guna2Button5.TabIndex = 4
         Me.Guna2Button5.Text = "File-Encypt / Decrpt"
+        Me.Guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2Button4
         '
@@ -169,13 +171,14 @@ Partial Class Dashboard
         Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
         Me.Guna2Button4.Image = CType(resources.GetObject("Guna2Button4.Image"), System.Drawing.Image)
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(14, 187)
+        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button4.Location = New System.Drawing.Point(-15, 187)
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Me.Guna2Button4.Size = New System.Drawing.Size(222, 46)
         Me.Guna2Button4.TabIndex = 3
         Me.Guna2Button4.Text = "     View / Update"
+        Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2Button3
         '
@@ -188,13 +191,14 @@ Partial Class Dashboard
         Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
         Me.Guna2Button3.Image = CType(resources.GetObject("Guna2Button3.Image"), System.Drawing.Image)
-        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.Location = New System.Drawing.Point(12, 239)
+        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button3.Location = New System.Drawing.Point(-15, 239)
         Me.Guna2Button3.Name = "Guna2Button3"
         Me.Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Me.Guna2Button3.Size = New System.Drawing.Size(221, 40)
         Me.Guna2Button3.TabIndex = 2
         Me.Guna2Button3.Text = "Trash"
+        Me.Guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2Button2
         '
@@ -207,13 +211,14 @@ Partial Class Dashboard
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
         Me.Guna2Button2.Image = CType(resources.GetObject("Guna2Button2.Image"), System.Drawing.Image)
-        Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button2.Location = New System.Drawing.Point(14, 281)
+        Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button2.Location = New System.Drawing.Point(-13, 281)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Me.Guna2Button2.Size = New System.Drawing.Size(222, 40)
         Me.Guna2Button2.TabIndex = 1
         Me.Guna2Button2.Text = "Recovery Key"
+        Me.Guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2Button1
         '
@@ -226,13 +231,14 @@ Partial Class Dashboard
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Image = CType(resources.GetObject("Guna2Button1.Image"), System.Drawing.Image)
-        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.Location = New System.Drawing.Point(14, 141)
+        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2Button1.Location = New System.Drawing.Point(-13, 141)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Me.Guna2Button1.Size = New System.Drawing.Size(222, 40)
         Me.Guna2Button1.TabIndex = 0
         Me.Guna2Button1.Text = "Add"
+        Me.Guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Guna2Panel2
         '
@@ -254,7 +260,7 @@ Partial Class Dashboard
         Me.Guna2ControlBox4.CustomizableEdges = CustomizableEdges17
         Me.Guna2ControlBox4.FillColor = System.Drawing.Color.FromArgb(CType(CType(139, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.Guna2ControlBox4.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox4.Location = New System.Drawing.Point(595, 11)
+        Me.Guna2ControlBox4.Location = New System.Drawing.Point(548, 11)
         Me.Guna2ControlBox4.Name = "Guna2ControlBox4"
         Me.Guna2ControlBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Me.Guna2ControlBox4.Size = New System.Drawing.Size(28, 16)
@@ -267,7 +273,7 @@ Partial Class Dashboard
         Me.Guna2ControlBox3.CustomizableEdges = CustomizableEdges19
         Me.Guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(CType(CType(139, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.Guna2ControlBox3.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox3.Location = New System.Drawing.Point(629, 11)
+        Me.Guna2ControlBox3.Location = New System.Drawing.Point(582, 11)
         Me.Guna2ControlBox3.Name = "Guna2ControlBox3"
         Me.Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Me.Guna2ControlBox3.Size = New System.Drawing.Size(28, 16)
@@ -290,9 +296,9 @@ Partial Class Dashboard
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(47, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Guna2PictureBox3)
-        Me.Panel1.Location = New System.Drawing.Point(228, 31)
+        Me.Panel1.Location = New System.Drawing.Point(181, 31)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(429, 410)
+        Me.Panel1.Size = New System.Drawing.Size(430, 429)
         Me.Panel1.TabIndex = 1
         '
         'Guna2PictureBox3
@@ -311,7 +317,7 @@ Partial Class Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(658, 442)
+        Me.ClientSize = New System.Drawing.Size(611, 445)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.Guna2Panel3)
